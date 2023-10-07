@@ -1,0 +1,101 @@
+*{
+    /* margin: 0; */
+    /* padding: 0; */
+}
+
+.homeimg {
+    background-image: url("Pic/Home_2.jpg");
+    width: 600px; 
+    height: 400px;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+}
+
+nav {
+    background-color: plum;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    /* padding: 10px; */
+}
+
+nav a {
+    margin: 0 15px;
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+nav li {
+    display: inline;
+    margin: 0 15px;
+}
+
+.banner {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.headline {
+    margin: auto;
+}
+
+
+.headline > h2 {
+    font-size: 60px;
+}
+
+.headline > p {
+    font-size: 40px;
+}
+
+.property {
+    border: 1px solid #ddd;
+    /* padding: 10px; */
+    border-radius: 5px;
+    display: inline;
+}
+
+/* img {
+    width: 600px;
+    height: auto; 
+    padding: 50px;
+    margin: 50px;
+}  
+*/
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+
+
+}
+.box {
+    width: 500px;
+    height: 500px;
+    background-color: red;
+    /* padding: 50px; */
+    /* margin-top: 200px; */
+    /* margin-right: 200px; */
+    /* margin-bottom: 200px; */
+}
+
+footer {
+    background-color: #007BFF;
+    color: #fff;
+    text-align: center;
+    /* padding: 10px 0; */
+}
+
+.row {
+    display: flex;
+    justify-content: space-between;
+    margin: 10px;
+    width: 100%;
+}
